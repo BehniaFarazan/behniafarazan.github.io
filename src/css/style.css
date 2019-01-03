@@ -9,7 +9,7 @@
     align-items: center;
     width: 150px;
     height: 40px;
-    background: linear-gradient(45deg, #B388EB, #8093F1);
+    background: linear-gradient(45deg, rgba(65, 36, 62, 0.8), #161d35);
     border-radius: 20px;
     color: #FFF;
     font-size: 20px;
