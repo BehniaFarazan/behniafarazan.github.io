@@ -1,0 +1,166 @@
+
+.timeline {
+    position: relative;
+}
+.timeline::before {
+    content: '';
+    background: #222326;
+    width: 5px;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    width: 100%;
+    margin-bottom: 70px;
+}
+.timeline-item:nth-child(even) .timeline-content {
+    float: right;
+    padding: 40px 30px 10px 30px;
+}
+.timeline-item:nth-child(even) .timeline-content .date {
+    right: auto;
+    left: 0;
+}
+.timeline-item:nth-child(even) .timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f5f5f5 transparent transparent;
+}
+.timeline-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.timeline-content {
+    position: relative;
+    width: 45%;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: #f5f5f5;
+    box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+.timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    right: -15px;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #f5f5f5;
+}
+
+.timeline-img {
+    width: 30px;
+    height: 30px;
+    background: #4d4d4d;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+
+.timeline-card {
+    padding: 0 !important;
+
+}
+.timeline-card p {
+    padding: 0 20px;
+}
+.timeline-card a {
+    margin-left: 20px;
+}
+.timeline-item:nth-child(1) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://user-images.githubusercontent.com/22538033/51130555-87a76400-182d-11e9-888d-5306a027f119.png") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-item:nth-child(2) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://user-images.githubusercontent.com/22538033/51136423-c1cc3200-183c-11e9-8531-8e6fcf7c599a.png") center center no-repeat;
+    background-size: cover;
+}
+.timeline-item:nth-child(3) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://user-images.githubusercontent.com/22538033/51207629-a7ad5500-190b-11e9-9051-ec40867c6870.png") center center no-repeat;
+    background-size: cover;
+}
+.timeline-item:nth-child(4) .timeline-img-header {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://user-images.githubusercontent.com/22538033/51209468-9286f500-1910-11e9-972c-abe1df4241e9.png") center center no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.timeline-img-header {
+    height: 300px;
+    position: relative;
+    margin-bottom: 0px;
+
+}
+.timeline-img-header h2 {
+    color: #292929;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+blockquote {
+    margin-top: 30px;
+    color: #757575;
+    border-left-color: #4d4d4d;
+    padding: 0 20px;
+}
+
+.date {
+    background: #292929;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline::before {
+        left: 50px;
+    }
+    .timeline .timeline-img {
+        left: 50px;
+    }
+    .timeline .timeline-content {
+        max-width: 100%;
+        width: auto;
+        margin-left: 70px;
+    }
+    .timeline .timeline-item:nth-child(even) .timeline-content {
+        float: none;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        width: 0;
+        height: 0;
+        top: 30px;
+        left: -15px;
+        border-width: 10px 15px 10px 0;
+        border-color: transparent #f5f5f5 transparent transparent;
+    }
+}
