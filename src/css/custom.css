@@ -102,9 +102,9 @@ a:hover {
     position: absolute;
     left: -220px;
     top: -150px;
-    font-size: 270px;
+    font-size: 272px;
     z-index: -1;
-    color: #f4f4f4; }
+    color: #f6f7f8; }
   .intro h1 span {
     font-size: 47px; }
 
@@ -157,3 +157,4 @@ footer {
       font-size: 1.25em;
       color: #999999; }
 
+    
