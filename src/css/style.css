@@ -51,3 +51,124 @@
     transition: 1.2s all ease;
     transform: translateY(56px);
 }
+
+section {
+    margin-bottom: 48px;
+    overflow: hidden
+}
+
+section .section-headline {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none
+}
+
+.section-summary table {
+    border-collapse: separate;
+    border-spacing: 40px 0
+}
+
+.section-summary table td .cell-body {
+    text-align: justify
+}
+
+.section-team .row {
+    margin-bottom: 16px
+}
+
+.section-team .row .col-3 {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.profile {
+    padding: 0 8px;
+    box-sizing: border-box;
+    text-align: center
+}
+
+.profile .profile-field {
+    margin: 6px
+}
+
+.profile .profile-img img {
+    width: 100%
+}
+
+.profile .profile-name span {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.section-headline {
+    text-align: center
+}
+
+.time-line {
+    text-align: center;
+    position: relative
+}
+
+.time-line .line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    border-left: 3px dotted #A0A0A0;
+    margin-left: -3px;
+    z-index: 1
+}
+
+.time-line .year {
+    margin: 30px 0;
+    padding: 12px 0;
+    background-color: #FFF;
+    z-index: 2;
+    position: relative
+}
+
+.time-line .year span {
+    font-size: 22px
+}
+
+.time-line .clients {
+    z-index: 2;
+    position: relative;
+    padding: 4px 0
+}
+
+.time-line .clients .left,.time-line .clients .right {
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box
+}
+
+.time-line .clients .left {
+    padding-right: 1px;
+    text-align: right
+}
+
+.time-line .clients .left .client:last-of-type {
+    padding-right: 0
+}
+
+.time-line .clients .right {
+    padding-left: 1px;
+    text-align: left
+}
+
+.time-line .clients .right .client:first-of-type {
+    padding-left: 0
+}
+
+.time-line .clients .client {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 8px;
+    box-sizing: border-box
+}
+
+.time-line .clients .client img {
+    max-height: 76px;
+    max-width: 100%
+}
