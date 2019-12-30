@@ -68,14 +68,6 @@ a:hover {
     opacity: 0; }
   100% {
     opacity: 1; } }
-.main-nav {
-  background: #eeeeee2b;
-  padding-top: 23px; }
-  .main-nav nav ul li a {
-    color: #a7a7a7; }
-  .main-nav nav ul li.active a {
-    color: #4d4d4d; }
-
 .section.second {
   margin-bottom: 35px; }
 .section .container {

@@ -4,7 +4,7 @@ nav {
     max-width: 960px;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 1px 0;
 }
 
 nav ul {
@@ -32,4 +32,12 @@ nav ul li a:hover {
     background: rgba(255, 255, 255, 0.1);
     color: rgba(0, 35, 122, 0.7);
 }
+
+.main-nav {
+    background: #ececec;
+    padding-top: 23px; }
+.main-nav nav ul li a {
+    color: #a7a7a7; }
+.main-nav nav ul li.active a {
+    color: #4d4d4d; }
 
