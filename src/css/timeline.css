@@ -75,7 +75,7 @@
 
 .timeline-card {
     padding: 0 !important;
-
+    border-radius: 20px;
 }
 .timeline-card p {
     padding: 0 20px;
