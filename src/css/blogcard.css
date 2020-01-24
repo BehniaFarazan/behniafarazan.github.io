@@ -28,6 +28,9 @@
     height: 100%;
 }
 @media only screen and (max-width: 600px) {
+   .tl-content{
+       margin: 0px 0.318em !important;
+   }
     .blogTitle{
          font-size: 0.8rem !important;
         margin-bottom: 1px !important;
