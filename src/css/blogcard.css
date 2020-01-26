@@ -1,6 +1,7 @@
 #timelinee {
     display: flex;
     background-color: rgb(255, 251, 251);
+    border-radius: 20px;
 }
 
 #timelinee:hover .tl-item {
