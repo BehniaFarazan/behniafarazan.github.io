@@ -84,7 +84,7 @@
     margin-left: 20px;
 }
 .timeline-item:nth-child(1) .timeline-img-header {
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://user-images.githubusercontent.com/22538033/79687217-e6843600-8245-11ea-9c14-e1fc0525fc8f.PNG") center center no-repeat;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://user-images.githubusercontent.com/22538033/82444352-66026080-9aa3-11ea-9ce3-716402b8a6fe.PNG") center center no-repeat;
     background-size: contain ;
 }
 .timeline-item:nth-child(2) .timeline-img-header {
