@@ -1381,7 +1381,7 @@ input.input-smaller {
     clear: both;
 }
 .navbar li {
-    float: left;
+    float: none;
     margin-right: 1.65em;
 }
 .navbar.navbar-right li {
