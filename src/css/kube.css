@@ -1408,7 +1408,7 @@ input.input-smaller {
     text-transform: uppercase;
     position: relative;
     color: #0f0f0f;
-    background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
 .navigation-toggle:after {
     position: absolute;
