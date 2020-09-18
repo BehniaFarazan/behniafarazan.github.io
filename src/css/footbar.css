@@ -1,0 +1,60 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.section.second {
+    margin-bottom: 35px;
+}
+.list-flat {
+    margin-left: 0;
+    list-style: none;
+}
+.skills .skill-list li:first-child {
+    font-size: 0.9375em;
+    color: #8c8c8c;
+}
+footer {
+    padding: 0px 0px 59px 59px;
+}
+.button {
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(45deg, rgba(50, 50, 55, 0.64), #6e72675e);
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.linkedin {
+    background: #00aced;
+}
+.social {
+    opacity: 0;
+    position: relative;
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: inline-block;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+}
+.social a {
+    color: #FFF;
+}
+.social i {
+    margin-top: 10px;
+}
+.fa-linkedin::before {
+
+    content: "\f0e1";
+}
+.clicked {
+    opacity: 1;
+    transition: 1.2s all ease;
+    transform: translateY(56px);
+}
