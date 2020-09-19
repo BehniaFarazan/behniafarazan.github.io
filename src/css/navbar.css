@@ -49,3 +49,154 @@ nav ul li a:hover {
 .main-nav nav ul li.active a {
     color: #4d4d4d; }
 
+.navigation-toggle::after {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    margin-top: -12px;
+    left: 10px;
+    content: "\2630";
+    font-size: 24px;
+    line-height: 1;
+}
+.navigation-toggle {
+    display: none;
+    text-transform: uppercase;
+    position: relative;
+    color: #0f0f0f;
+    background-color: #ffffff;
+}
+.navbar ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+}
+nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+
+.group::after {
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.navigation-toggle::after {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    margin-top: -12px;
+    left: 10px;
+    content: "\2630";
+    font-size: 24px;
+    line-height: 1;
+}
+.navigation-toggle.navigation-toggle-show {
+    margin-bottom: 1.65em;
+}
+
+/* NavBar */
+.navbar {
+    font-size: 105%;
+    margin-bottom: 1.65em;
+}
+.navbar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar.navbar-left {
+    float: left;
+}
+.navbar.navbar-right {
+    float: right;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+}
+.navbar ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar li {
+    float: none;
+    margin-right: 1.65em;
+}
+.navbar.navbar-right li {
+    margin-right: 0;
+    margin-left: 1.65em;
+}
+.navbar a,
+.navbar span {
+    display: block;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #de2c3b;
+    text-decoration: underline;
+}
+.navbar li.active a,
+.navbar span {
+    text-decoration: none;
+    cursor: text;
+    color: rgba(0, 0, 0, 0.4);
+}
+.navigation-toggle {
+    display: none;
+    text-transform: uppercase;
+    position: relative;
+    color: #0f0f0f;
+    /*background-color: #ffffff;*/
+}
+.navigation-toggle:after {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    margin-top: -12px;
+    left: 10px;
+    content: "\2630";
+    font-size: 24px;
+    line-height: 1;
+}
+.navigation-toggle.navigation-toggle-black {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+.navigation-toggle.navigation-toggle-show {
+    margin-bottom: 1.65em;
+}
+.navigation-toggle span {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: block;
+    padding: 10px 20px 10px 40px;
+}
+.navigation-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+

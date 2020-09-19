@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="src/css/timeline.css">
     <link rel="stylesheet" href="src/css/footbar.css">
     <script src="src/js/timeline.js"></script>
-
 </head>
 
 <body>
@@ -32,7 +31,7 @@
 <div class="main-nav">
     <div class="container">
         <header class="group top-nav">
-            <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1" style="display: none;">
+            <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
                 <span class="logo">BEHNIA</span>
             </div>
             <nav id="navbar-1" class="navbar item-nav">
@@ -71,7 +70,6 @@
 
 <!-- Award & Achievements -->
 
-
 <!-- Technical Skills -->
 <div class="skills section second" id="skills">
     <div class="container">
@@ -108,5 +106,21 @@
 
 
 </footer>
+
+<!-- Javascript -->
+<script src="src/js/jquery.min.js"></script>
+<!--what to do script <script src="js/typed.min.js"></script> -->
+<script src="src/js/kube.js"></script>
+<script src="src/js/site.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<script src="src/js/PREStimelinee.js"></script>
+
+<!-- fun galaxy thing %implemented -->
+<script>
+    function newTyped(){}$(function(){$("#typed").typed({
+        strings: ["", "", ""],
+        typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+</script>
 </body>
 </html>
