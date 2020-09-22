@@ -1,8 +1,4 @@
 
-.navbar {
-    font-size: 10%;
-    margin-bottom: 1.65em;
-}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 nav {
@@ -40,32 +36,18 @@ nav ul li a:hover {
 
 .main-nav {
     background: #f6f7f8;
-    padding-top: 1px;
+    padding-top: 0px;
     border-radius: 55px;
-    padding-bottom: 1px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .main-nav nav ul li a {
     color: #a7a7a7; }
 .main-nav nav ul li.active a {
     color: #4d4d4d; }
 
-.navigation-toggle::after {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    margin-top: -12px;
-    left: 10px;
-    content: "\2630";
-    font-size: 24px;
-    line-height: 1;
-}
-.navigation-toggle {
-    display: none;
-    text-transform: uppercase;
-    position: relative;
-    color: #0f0f0f;
-    background-color: #ffffff;
-}
+
 .navbar ul::after {
     content: "";
     display: table;
@@ -75,11 +57,7 @@ nav ul li a:hover {
     list-style: none;
     margin: 0;
 }
-nav ul {
-    text-align: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-}
+
 
 
 .group::after {
@@ -90,24 +68,11 @@ nav ul {
 
 }
 
-.navigation-toggle::after {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    margin-top: -12px;
-    left: 10px;
-    content: "\2630";
-    font-size: 24px;
-    line-height: 1;
-}
-.navigation-toggle.navigation-toggle-show {
-    margin-bottom: 1.65em;
-}
 
 /* NavBar */
 .navbar {
-    font-size: 105%;
-    margin-bottom: 1.65em;
+    font-size: 35%;
+    margin-bottom: 1px;
 }
 .navbar:after {
     content: "";
@@ -153,8 +118,8 @@ nav ul {
     text-decoration: none;
 }
 .navbar a:hover {
-    color: #de2c3b;
-    text-decoration: underline;
+    color: #393939;
+    /*text-decoration: line-through;*/
 }
 .navbar li.active a,
 .navbar span {
@@ -169,34 +134,44 @@ nav ul {
     color: #0f0f0f;
     /*background-color: #ffffff;*/
 }
-.navigation-toggle:after {
+.navigation-toggle::after {
     position: absolute;
     z-index: 1;
-    top: 50%;
-    margin-top: -12px;
-    left: 10px;
+    top: 36%;
+    margin-top: -7px;
+    left: -2px;
     content: "\2630";
     font-size: 24px;
     line-height: 1;
 }
 .navigation-toggle.navigation-toggle-black {
     background-color: #0f0f0f;
-    color: #ffffff;
+    /*! color: #ffffff; */
 }
 .navigation-toggle.navigation-toggle-show {
-    margin-bottom: 1.65em;
+    /*! margin-bottom: 1.65em; */
 }
 .navigation-toggle span {
     position: relative;
     z-index: 2;
     cursor: pointer;
     display: block;
-    padding: 10px 20px 10px 40px;
+    padding: 10px 10px 10px 90px;
 }
 .navigation-fixed {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 101;
+}
+
+
+
+
+
+nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 35, 122, 0.7);
 }
 
