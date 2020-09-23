@@ -31,6 +31,10 @@ footer {
 .linkedin {
     background: #00aced;
 }
+.github {
+      background: #4b6998;
+  }
+
 .social {
     opacity: 0;
     position: relative;
