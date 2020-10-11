@@ -27,7 +27,7 @@ body {
 .container {
     margin: auto;
     max-width: 946px;
-    padding: 0px 55px;
+    padding: 0px 40px;
 }
 a, p, li {
     font-family: revert;
