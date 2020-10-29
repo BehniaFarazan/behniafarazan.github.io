@@ -104,6 +104,41 @@
 
 
 
+@media(max-width: 385px){
+    .card{
+        margin: 20px;
+    }
+    .card-1 {
+        background-size: 88px;
+        background-position-y: 15px;
+        background-position-x: right;
+    }
+    .card-2 {
+        background-image: url("../image/dtu_compute.jpg");
+        background-size: 115px;
+        background-position-y: 15px;
+        background-position-x: right;
+    }
+    .card-3 {
+        background-size: 80px;
+        background-position-y: 15px;
+        background-position-x: right;
+    }
+    .card-5 {
+        background-size: 45px;
+        background-position-y: -5px;
+        background-position-x: right;
+    }
+    .card-4 {
+        background-size: 70px;
+        background-position-y: 10px;
+        background-position-x: right;
+    }
+    .card >p{
+        width: 200px;
+        font-size: 13px;
+    }
+}
 
 
 
