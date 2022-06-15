@@ -64,6 +64,13 @@
     background-size: 70px;
 
 }
+.card-6{
+    background-image: url("../image/netcompany.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
 
 
 @media(max-width: 490px){
@@ -92,6 +99,11 @@
         background-position-x: right;
     }
     .card-4 {
+        background-size: 70px;
+        background-position-y: 10px;
+        background-position-x: right;
+    }
+    .card-6 {
         background-size: 70px;
         background-position-y: 10px;
         background-position-x: right;
@@ -130,6 +142,11 @@
         background-position-x: right;
     }
     .card-4 {
+        background-size: 70px;
+        background-position-y: 10px;
+        background-position-x: right;
+    }
+    .card-6 {
         background-size: 70px;
         background-position-y: 10px;
         background-position-x: right;
